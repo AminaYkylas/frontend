@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Webpage</title>
+    <style>
+        h3 {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        p{
+            text-align: left;
+            color: darkgoldenrod;
+        }
+        .center{
+            text-align: center;
+            font-family: cursive;
+        }
+        #p1{
+            color: brown;
+            font-family: fantasy;
+        }
+        #box{
+            background-color: goldenrod;
+            width: 320px;
+            height: 50px;
+            padding: 10px;
+            border: 5px solid gray;
+            margin: 20px;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+    <div class="header">
+    <h1 id="main-heading"><i>Hello! Im Amina =></i></h1>
+    <h2 class="center">I will tell you about myself. I am studying media technologies</h2>
+    </div>
+    <div class="main-content">
+    <h3>About Meee:</h3>
+    <p style="color:darkviolet;">Im 18 years old, and Im from Almaty. <br>I love listening to music and making videos, but (in my opinion) Im not very good at editing them.
+        <br>I started listening to K‑pop in 2017 and watching dramas. So now I know and am learning Korean, and Im going to a BTS concert soon(Im so excited).</p>
+    <h3>My hobbies:</h3>
+    <ol>
+        <li>Watch drama</li>
+        <li>Listen to music</li>
+        <li>Dance</li>
+    </ol>
+    <h3>My favorite websites:</h3>
+    <ul>
+        <li>Kinogo</li> <a href="https://mix.kinogo.mu/page/17/">Here</a>
+        <li>Webtoon</li> <a href="https://www.webtoons.com/en/">Here</a>
+    </ul>
+    <p>My emoji today is like this: &#128533;   &#128531; &#128548;<br>My laptop cant handle the editing app soo I dont know how to keep working</p>
+
+    <img src="photo_2025-04-22_20-20-40.jpg" alt="Mini me" class="myphoto">
+    <p id="p1">This paragraph with id selector</p>
+    <h4 class="highlight">hiii im learning css</h4>
+    <h4 class="highlight">this 2 text</h4>
+    </div>
+    <div id="box">Some text will be in box! hehe ;=></div>
+    <h4 class="static">This element has static position</h4>
+    <div class="relative">So this has relative position</div>
+    <div class="absolute">And this absolute position</div>
+    <div class="size">The font-size of this div element is 150%.</div>
+    <br>
+    <div class="floatcont">
+    <div class="boxleft">Left box </div>
+    <div class="boxright">Right box</div>
+    <div class="clearfix"></div>
+    </div>
+    <div class="footer">
+    <button>CLICK ME!</button>
+    <br>
+    <table border="2">
+        <thead>
+            <tr>
+            <th>Subject</th>
+            <th>Day</th>
+            <th>Time</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <td>Foundation of Screenwriting</td>
+            <td>Mon</td>
+            <td>17:00-17:50</td>
+            </tr>
+            <tr>
+                <td>Cinematography & Digital Editing</td>
+                <td>Tue</td>
+                <td>18:00-19:50</td>
+            </tr>
+            <tr>
+                <td>OC</td>
+                <td>Wed</td>
+                <td>15:00-15:50</td>
+
+            </tr>
+            <tr>
+                <td>Kaz. Lan.</td>
+                <td>thu</td>
+                <td>16:00-17:50</td>
+            </tr>
+        </tbody>
+    </table>
+    <form>
+        <fieldset>
+            <legend>Now your turn!</legend>
+            <label for="name">Your name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Enter your email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="color">Select your favorite color:</label><br>
+            <input type="color" id="color" name="color"><br>
+            <input type="submit" value="Submit"><br>
+        </fieldset>
+    </form>
+    </div>
+</body>
+</html>

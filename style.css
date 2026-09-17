@@ -1,0 +1,77 @@
+body{
+    background-color: aqua;
+}
+
+h1{
+    margin-left: 50px;
+}
+.highlight{
+    color: deeppink;
+    font-family: sans-serif;
+}
+#main-heading{
+    color: olive;
+    font-size: 1rem;
+}
+.header{
+    background-color: bisque;
+    padding: 20px;
+}
+.main-content{
+    background-color: azure;
+    padding: 40px;
+}
+.myphoto{
+    margin-top: -18.75rem;   
+    margin-left: 800px;        
+}
+.static {
+    position: static;
+    background-color: lawngreen;    
+}
+.relative {
+  position: relative;
+  background-color: indianred;
+  width: 400px;
+  height: 200px;
+} 
+.absolute {
+  position: absolute;
+  background-color: khaki;
+  top: 1300px;
+  right: 0;
+  width: 200px;
+  height: 100px;
+}
+.size{
+    font-size: 150%;
+    background-color: dimgray;
+}
+
+.floatcont {
+    border: 2px plum;
+    padding: 20px;
+    margin: 20px;
+}
+.boxleft {
+    float: left;
+    width: 45%;
+    background-color: #a5d6a7;
+    padding: 20px;
+    text-align: center;
+}
+
+.boxright {
+    float: right;
+    width: 45%;
+    background-color: #ef9a9a;
+    padding: 20px;
+    text-align: center;
+}
+.clearfix {
+    clear: both;
+}
+.footer{
+    background-color: lightpink;
+    padding:15px;
+}
